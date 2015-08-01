@@ -1,6 +1,6 @@
 @extends('base.master')
 
-@section('contenidoextra')
+@section('contenido')
 	<li><a href="#">Contenido extra 1</a></li>
 	
 @stop
