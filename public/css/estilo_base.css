@@ -2,3 +2,8 @@
 	background-image: url('../imagenes/top_bg.jpg');
 	height: 413px;
 }
+
+.ui.text.container{
+	padding-top: 200px;
+	padding-bottom: 200px;
+}

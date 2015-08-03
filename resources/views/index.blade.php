@@ -1,11 +1,15 @@
 @extends('base.master')
 
-@section('cabecera_index')
-    <div class="android-conent mdl-layout__content">
-        <div class="jumbotron">
-            <div class="container">
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+@section('text_container')
+    <div class="ui text container">
+        <h1 class="ui inverted header">Anime Online</h1>
+        <h2>
+            El mejor sitio para ver tus series.
+            <p></p>
+            <div class="ui huge primary button">
+                Empezar
+                <i class="right arrow icon"></i>
             </div>
-        </div>
+        </h2>
     </div>
 @endsection
