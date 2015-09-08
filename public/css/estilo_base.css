@@ -7,3 +7,25 @@
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
+
+.contenido_principal{
+	
+}
+
+.ui.cards > .card, .ui.card{
+	width: 100%;
+}
+
+#cartelera{
+	border: 1px solid red;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 6.25%;
+}
+
+#caja_login{
+	padding: 3.5em 1em 1em;
+	width: 50%;
+	position: relative;
+	margin: 0 auto;
+}

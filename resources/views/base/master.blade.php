@@ -41,9 +41,8 @@
 	<!-- Menu desplegable -->
 	<div class="ui vertical inverted sidebar menu left">
 		<a class="active item">Inicio</a>
-		<a class="item">Link 2</a>
-		<a class="item">Link 3</a>
-		<a class="item">Link 4</a>
+		<a class="item">Anime</a>
+		<a class="item">Biblioteca</a>
 		<a class="item">Ingresar</a>
 		<a class="item">Registrarse</a>
 	</div>
@@ -56,10 +55,9 @@
 					<a class="toc item">
 						<i class="sidebar icon"></i>
 					</a>
-					<a class="active item">Inicio</a>
-					<a class="item">Link 2</a>
-					<a class="item">Link 3</a>
-					<a class="item">Link 4</a>
+					<a class="active item" href="/">Inicio</a>
+					<a class="item" href="/anime">Anime</a>
+					<a class="item">Biblioteca</a>
 					<div class="right item">
 						<div class="ui search">
 							<div class="ui icon input">
@@ -68,14 +66,19 @@
 							</div>	
 							<div class="results transition"></div>	
 						</div>
-						<a class="ui inverted button">Ingresar</a>
-						<a class="ui inverted button">Registrarse</a>
+						<a class="ui inverted button" href="/login">Ingresar</a>
+						<a class="ui inverted button" href="/register">Registrarse</a>
 					</div>
 				</div>
 			</div>
 
 			@yield('text_container') <!-- solo en el index -->
 		</div>
+
+		<div class="contenido_principal">
+			@yield('contenido_cuerpo')
+		</div>
+		
 	</div>
 
 </body>
